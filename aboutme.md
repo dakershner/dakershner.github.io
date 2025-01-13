@@ -11,10 +11,8 @@ I'm an entrepreneurial Data and Analytics Engineering Leader with a +7 year trac
 
 ### Building Performant Data and Analytics Platforms
 I brought FilmRise's data infrastructure from 0 to 1, spearheading the creation of its modern cloud data platform and team, enabling DataOps and ML capabilities, on budget and on time (Multi million dollar investment). This foundation unlocked advanced analytic capabilities and supported cross-functional data product development.
-
 ### Creating Valuable Data Products
 At Initiative, I originated the analytics engineering function, creating extensible pipeline and warehousing solutions that availed new data sources like Google Analytics to analysts working across dozens of ad campaigns. At FilmRise, I redefined market intelligence capabilities, improving forecasting accuracy by ~130% and optimizing our BI tools to reduce ad-hoc data requests by over 50%. These improvements drove actionable insights for content acquisition and sales.
-
 ### Enhancing Productivity and Cohesion Across Teams
 By implementing agile frameworks and breaking down data silos, I've reduced inefficiencies and empowered teams to collaborate across high-value workflows. For instance, integrating HubSpot CRM into a serverless data platform streamlined deal underwriting workflows, cutting lead time by over 100%.
 
@@ -32,7 +30,7 @@ By implementing agile frameworks and breaking down data silos, I've reduced inef
 - I'm able to steer towards long term objectives and scale, but I also excel in the dirty work–employing tactical solutions and providing an onramp to further refinements
 - I've consistently excelled as a player coach - getting special commendations for balancing an IC workload while managing upwards and cohering cross-functional talent
 
-## My Principles in Data Work
+## What Have I Learned In Data Work?
 
 1. All data projects need to fulfill real business needs and analytic demand. Without real org buy-in and bottom line purpose, analytics will, at best, be a sideshow.
 2. Abundant data isn't inherently valuable—success lies in leveraging the right data in the right context at the right time.
