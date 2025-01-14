@@ -1,27 +1,27 @@
 ---
 layout: page
 title: About me
-subtitle: Data & Analytics Engineering Leader
+subtitle: Engineering Data Solutions That Scale With Purpose
 ---
 
 ## What's My Deal?
-I'm an entrepreneurial Data and Analytics Engineering Leader with a +7 year track record of delivering robust data solutions that translate data into value for the business and its customers, currently working in Media and Entertainment. I specialize in building extensible, reliable and secure cloud data infrastructure, intuitive and performant models, and ML Initiatives while incorporating scalable SDLC best practices. I'm a product-oriented technical leader who fosters a culture of collaboration, innovation, and high impact.
+I'm an entrepreneurial Data and Analytics Engineering Leader with a +7 year track record of delivering robust data solutions that translate data into value for the business and its customers, currently working in Media and Entertainment. I specialize in building extensible, reliable and secure cloud data infrastructure, intuitive and performant models, and ML initiatives while incorporating scalable SDLC best practices. I'm a product-oriented technical leader who fosters a culture of collaboration, innovation, and high impact.
 
-## Where Have I Succeeded?
+## What Am I Good At?
 
 ### Building Performant Data and Analytics Platforms
-I brought FilmRise's data infrastructure from 0 to 1, spearheading the creation of its modern cloud data platform and team, enabling DataOps and ML capabilities, on budget and on time (Multi million dollar investment). This foundation unlocked advanced analytic capabilities and supported cross-functional data product development.
+I brought FilmRise's data infrastructure from 0 to 1, spearheading the creation of its modern cloud data platform and team, enabling DataOps and ML capabilities, on budget and on time (Multi million dollar investment). This foundation unlocked advanced analytic capabilities and supports rapid, cross-functional data product development.
 ### Creating Valuable Data Products
-At Initiative, I originated the analytics engineering function, creating extensible pipeline and warehousing solutions that availed new data sources like Google Analytics to analysts working across dozens of ad campaigns. At FilmRise, I redefined market intelligence capabilities, improving forecasting accuracy by ~130% and optimizing our BI tools to reduce ad-hoc data requests by over 50%. These improvements drove actionable insights for content acquisition and sales.
+At Initiative, I originated the analytics engineering function, creating extensible pipeline and warehousing solutions that availed new data sources like Google Analytics to analysts working across dozens of integrated ad campaigns. At FilmRise, I built an expansive market intelligence model, helped improve forecasting model accuracy by ~130%, and optimizing our BI tools to reduce ad-hoc data requests by over 50%.
 ### Enhancing Productivity and Cohesion Across Teams
-By implementing agile frameworks and breaking down data silos, I've reduced inefficiencies and empowered teams to collaborate across high-value workflows. For instance, integrating HubSpot CRM into a serverless data platform streamlined deal underwriting workflows, cutting lead time by over 100%.
+By implementing agile frameworks and breaking down data silos, I've reduced inefficiencies and empowered teams to collaborate across high-value workflows. For instance, integrating HubSpot CRM deal pipeline into a data enrichment workflow streamlined deal underwriting workflows, delivering analyses and cutting deal lead time by over 100%.
 
 ## What Services Do I Offer?
 
 - **Data Solutions Architecture:** I architect extensible and secure cloud platforms that eliminate operational headaches and support long-term growth.
-- **Data and Analytics Engineering (IC, MNG):** My ETL and transformation implementations minimize data downtime and maximize quality and availability, from exploratory analytic tools to production grade predictive models that drive the bottom line.
+- **Data and Analytics Engineering:** I design and built ETL solutions that minimize data downtime and maximize quality and availability, from exploratory analytic tools to production grade predictive models that drive the bottom line.
 - **Data Strategy:** I help you model your business and its data, guiding decisions about how to productize your data ecosystem iteratively and create business value along the way.
-- **Team Building and Development:** I create org structures and developer frameworks that help data practitioners thrive in concert with business stakeholders, delivering high-quality work at scale without unnecessary "heroics".
+- **Team Building and Development:** I cultivate org structures and developer frameworks that help data practitioners thrive in concert with business stakeholders, delivering high-quality work at scale without unnecessary "heroics".
 
 ## Why Work With Me?
 
