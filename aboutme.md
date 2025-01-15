@@ -6,7 +6,8 @@ subtitle: Your Technical Partner in Data-Driven Growth
 
 ## What's My Deal?
 I'm an entrepreneurial **Data and Analytics Engineering Leader** with a +7 year track record of delivering robust solutions that translate data into value for the business and its customers, currently working in Media and Entertainment. I specialize in building extensible, reliable and secure cloud data infrastructure, intuitive and performant models, and ML initiatives while incorporating scalable SDLC best practices. I'm a product-oriented technical leader who fosters a culture of collaboration, innovation, and high impact.
-[Download my Resume]({{ site.baseurl }}/assets/files/resume.pdf){: .btn .btn-primary}
+
+![Download my Resume]({{ site.baseurl }}/assets/files/dan-kershner-resume.pdf){: .btn .btn-primary}
 ## What Do I Excel At?
 
 ### Building Performant Data and Analytics Platforms
