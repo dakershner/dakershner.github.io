@@ -1125,3 +1125,48 @@ pre {
     display: inline-block;
   }
 }
+
+.archive-tags {
+  margin: 2rem 0;
+}
+
+.tag-btn {
+  margin: 0.2rem;
+  border-radius: 2rem;
+  font-size: 0.9rem;
+  padding: 0.3rem 0.8rem;
+}
+
+.archive-posts {
+  list-style: none;
+  padding-left: 0;
+}
+
+.archive-posts li {
+  margin-bottom: 0.8rem;
+}
+
+.post-date {
+  color: var(--mid-col);
+  font-family: var(--header-font);
+  margin-right: 1rem;
+}
+
+.post-tags {
+  margin-left: 0.5rem;
+}
+
+.post-tags .tag {
+  background: var(--navbar-col);
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  margin-right: 0.3rem;
+  color: var(--navbar-text-col);
+  text-decoration: none;
+}
+
+.post-tags .tag:hover {
+  background: var(--hover-col);
+  color: white;
+}

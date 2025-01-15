@@ -32,9 +32,9 @@ By implementing agile frameworks and breaking down data silos, I've reduced inef
 
 ## What Have I Learned In Data Work?
 
-1. All data projects need to fulfill real business needs and analytic demand. Without material org buy-in and bottom line purpose, analytics will, at best, be a sideshow.
-2. Abundant data isn't inherently valuable—success lies in leveraging the right data in the right context at the right time.
-3. Data and business modeling is not secondary—it should be done in the abstract before any solutions are planned or implemented.
-4. Progress will happen along a maturity curve, fueled by a tight feedback loop of hypotheses testing and validation (or disproof) at each stage.
-5. Disincentivize analyst "heroism". Build frameworks that prioritize modularity, extensibility, and automated data quality to avoid relying on "heroic" and negatively compounding interventions.
-6. It should never take a data engineer more than 2 minutes to track and triage a pipeline bug in prod, nor an analytics consumer more than 5 minutes to extract a key datapoint.
+1. **Analytics with a Purpose:** All data projects need to fulfill real business needs and analytic demand. Without material org buy-in and bottom line purpose, analytics will, at best, be a sideshow.
+2. **Data in a vacuum != Value:** Abundant data isn't inherently valuable—success lies in leveraging the right data in the right context at the right time.
+3. **Model Your Data and Your Business:** Data and business modeling is not secondary—it should be done in the abstract before any solutions are planned or implemented.
+4. **Progress is a Curve:** Progress will happen along a maturity curve, fueled by a tight feedback loop of hypotheses testing and validation (or disproof) at each stage.
+5. **Down with Analyst "Heroics":** Disincentivize analyst "heroism" aka spaghetti workflows. Build frameworks that prioritize modularity, extensibility, and automated data quality to avoid relying on "heroic" and negatively compounding interventions.
+6. **Tool Friction Adds Up:** It should never take a data engineer more than 2 minutes to track and triage a pipeline bug in prod, nor an analytics consumer more than 5 minutes to extract a key datapoint.
