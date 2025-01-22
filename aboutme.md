@@ -4,11 +4,11 @@ title: About me
 subtitle: Your Technical Partner in Data-Driven Growth
 ---
 
-## What's My Deal?
-I'm an entrepreneurial **Data and Analytics Engineering Leader** with a +7 year track record of delivering robust solutions that translate data into value for the business and its customers, currently working in Media and Entertainment. I specialize in building extensible, reliable and secure cloud data infrastructure, intuitive and performant models, and ML initiatives while incorporating scalable SDLC best practices. I'm a product-oriented technical leader who fosters a culture of collaboration, innovation, and high impact.
+## A Professional Overview
+I'm an entrepreneurial **Data and Analytics Engineering Leader** with a +7 year track record of delivering robust solutions that translate data into value for the business and its customers, currently working in Media and Entertainment. I specialize in building extensible and reliable cloud data infrastructure, streamlined models, and explainable ML initiatives while incorporating scalable SDLC best practices. I'm a product-oriented technical leader who fosters a culture of collaboration, innovation, and high impact.
 
-[Download my Resume]({{ site.baseurl }}/assets/files/dan-kershner-resume.pdf){: .btn .btn-primary target="_blank"}
-## What Do I Excel At?
+[Here's My Resume]({{ site.baseurl }}/assets/files/dan-kershner-resume.pdf){: .btn .btn-primary target="_blank"}
+## My Key Accomplishments
 
 ### Building Performant Data and Analytics Platforms
 I brought [FilmRise's](https://filmrise.com/) **data infrastructure from 0 to 1**, spearheading the creation of its modern cloud data platform and team, **enabling DataOps and ML capabilities**, on budget and on time **(Multi million dollar investment)**. This foundation unlocked advanced analytic capabilities and supports rapid, cross-functional data product development.
@@ -17,21 +17,21 @@ At [Initiative](https://initiative.com/), **I originated the analytics engineeri
 ### Enhancing Productivity and Cohesion Across Teams
 By implementing agile frameworks and breaking down data silos, I've reduced inefficiencies and empowered teams to collaborate across high-value workflows. For instance, integrating finance's HubSpot CRM deal pipeline and the analytics platform streamlined deal underwriting workflows, delivering analyses and **cutting deal underwriting lead time by over 100%**.
 
-## What Services Do I Offer?
+## Services I Offer
 
-- **Analytics Solutions Architecture:** I architect extensible and secure cloud platforms that eliminate operational headaches and support long-term growth.
-- **Data and Analytics Engineering:** I design and built ETL solutions that minimize data downtime and maximize quality and availability, from exploratory analytic tools to production grade predictive models that drive the bottom line.
-- **Data Strategy:** I help you model your business and its data, guiding decisions about how to productize your data ecosystem iteratively and create business value along the way.
-- **Team Building and Development:** I cultivate org structures and developer frameworks that help data practitioners thrive in concert with business stakeholders, delivering high-quality work at scale without unnecessary "heroics".
+- **Analytics Solutions Architecture:** Architecting extensible and secure cloud platforms that eliminate operational headaches and support long-term growth.
+- **Data and Analytics Engineering:** Designing and building ETL solutions that minimize data downtime and maximize quality and availability, from exploratory analytic tools to production grade predictive models that drive the bottom line.
+- **Data Strategy:** Modeling your business and its data, guiding decisions about how to productize your data ecosystem iteratively and create business value along the way.
+- **Team Building and Development:** Cultivating org structures and developer frameworks that help data practitioners thrive in concert with business stakeholders, delivering high-quality work at scale without unnecessary "heroics".
 
-## Why Work With Me?
+## Reasons I'll Be an Asset to Your Team
 
-- I've delivered results at every phase of the analytics development lifecycle, from architecting cloud infrastructure to presenting BI to executive stakeholders.
-- I'm almost always the most technical person in the strategy discussion and the most business oriented person in the data engineering scrum.
-- I'm able to steer towards long term objectives and scale, but I also excel in the dirty work–employing tactical solutions and providing an onramp to further refinements.
-- I've consistently excelled as a player coach - getting commendations for balancing an IC workload while managing upwards and cohering cross-functional talent.
+- You can throw multi-faceted problems at me - I've delivered results at every phase of the analytics development lifecycle, from architecting cloud infrastructure to presenting BI to executive stakeholders.
+- I'll be a dynamic collaborator as the most technical person in the strategy discussion and the most business oriented person in the data engineering scrum.
+- I love helping teams steer towards long term objectives and scale, but I also excel in the dirty work–employing tactical solutions and providing an onramp to further refinements.
+- Your team will get a player coach who can handle an IC workload while managing upwards and cohering cross-functional talent.
 
-## What Have I Learned In Data Work?
+## Lessons I've Learned In Data Work
 
 1. **Analytics with a Purpose:** All data projects need to fulfill real business needs and analytic demand. Without material org buy-in and bottom line purpose, analytics will, at best, be a sideshow.
 2. **Data in a vacuum != Value:** Abundant data isn't inherently valuable—success lies in leveraging the right data in the right context at the right time.
