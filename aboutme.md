@@ -4,11 +4,11 @@ title: About me
 subtitle: Your Technical Partner in Data-Driven Growth
 ---
 
-## A Professional Overview
+## Professional Overview
 I'm an entrepreneurial **Data and Analytics Engineering Leader** with a +7 year track record of delivering robust solutions that translate data into value for the business and its customers, currently working in Media and Entertainment. I specialize in building extensible and reliable cloud data infrastructure, streamlined models, and explainable ML initiatives while incorporating scalable SDLC best practices. I'm a product-oriented technical leader who fosters a culture of collaboration, innovation, and high impact.
 
 [Here's My Resume]({{ site.baseurl }}/assets/files/dan-kershner-resume.pdf){: .btn .btn-primary target="_blank"}
-## My Key Accomplishments
+## Key Accomplishments
 
 ### Building Performant Data and Analytics Platforms
 I brought [FilmRise's](https://filmrise.com/) **data infrastructure from 0 to 1**, spearheading the creation of its modern cloud data platform and team, **enabling DataOps and ML capabilities**, on budget and on time **(Multi million dollar investment)**. This foundation unlocked advanced analytic capabilities and supports rapid, cross-functional data product development.
