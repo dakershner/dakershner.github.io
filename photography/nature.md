@@ -1,12 +1,10 @@
 ---
 layout: photo_collection
-title: Nature
-description: Landscapes and wildlife photography
+title: Asia Photos
+description: Photos from Hong Kong and other Asian countries
 photos:
-  - image: https://your-s3-bucket.amazonaws.com/photography/nature/photo1.jpg
-    caption: Mountain sunrise in Colorado
-  - image: https://your-s3-bucket.amazonaws.com/photography/nature/photo2.jpg
-    caption: Forest stream in autumn
-  - image: https://your-s3-bucket.amazonaws.com/photography/nature/photo3.jpg
-    caption: Desert landscape at sunset
+  - image: https://dkershner-photography.s3.amazonaws.com/hong-kong/DSCF1462.jpg
+    caption: Kowloon Park, Hong Kong (2024)
+  - image: https://dkershner-photography.s3.amazonaws.com/nature/photo2.jpg
+    caption: Sport Court, Hong Kong (2024)
 --- 
