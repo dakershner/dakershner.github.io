@@ -1,0 +1,9 @@
+- id: nature
+  title: Nature
+  thumbnail: assets/img/photography/thumbnails/nature.jpg
+  description: Landscapes and wildlife photography
+
+- id: urban
+  title: Urban
+  thumbnail: assets/img/photography/thumbnails/urban.jpg
+  description: City scenes and architecture 

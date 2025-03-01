@@ -1,0 +1,31 @@
+---
+layout: page
+---
+
+<div class="collection-header">
+  <h1>{{ page.title }}</h1>
+  <p>{{ page.description }}</p>
+</div>
+
+<div class="photo-carousel-container">
+  <div class="carousel-wrapper">
+    <div class="carousel">
+      {% for photo in page.photos %}
+        <div class="carousel-item">
+          <img src="{{ photo.image }}" alt="{{ photo.caption }}">
+          {% if photo.caption %}
+            <div class="caption">{{ photo.caption }}</div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+    
+    <div class="carousel-nav">
+      <button class="prev-button">&#10094;</button>
+      <span class="counter">1 of {{ page.photos.size }}</span>
+      <button class="next-button">&#10095;</button>
+    </div>
+  </div>
+</div>
+
+<script src="{{ 'assets/js/photo-carousel.js' | relative_url }}"></script> 
