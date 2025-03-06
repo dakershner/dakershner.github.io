@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: gallery-page
 title: About me
 subtitle: Your Technical Partner in Data-Driven Growth
 ---
