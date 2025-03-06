@@ -1,7 +1,9 @@
 - id: nature
   title: Asia Photos
   description: Photos from Hong Kong and other Asian countries
+  thumbnail: https://dkershner-photography.s3.amazonaws.com/hong-kong/DSCF1462.jpg
 
 - id: urban
   title: Urban
-  description: City scenes and architecture 
+  description: City scenes and architecture
+  thumbnail: https://dkershner-photography.s3.amazonaws.com/urban/sample.jpg 
