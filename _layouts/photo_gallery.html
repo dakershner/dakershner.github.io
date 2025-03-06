@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: gallery-base
 ---
 
 <div class="collection-title">
@@ -9,6 +9,8 @@ layout: gallery
   {% endif %}
 </div>
 
+{% assign first_photo = page.photos | first %}
+{% if first_photo %}
 <div class="photo-viewer">
   <div class="photo-container">
     {% for photo in page.photos %}
@@ -27,5 +29,10 @@ layout: gallery
     <a href="#" class="next-photo" aria-label="Next photo">→</a>
   </div>
 </div>
+{% else %}
+<div class="no-photos-message">
+  <p>No photos available in this collection yet.</p>
+</div>
+{% endif %}
 
 <script src="{{ '/assets/js/gallery.js' | relative_url }}"></script> 

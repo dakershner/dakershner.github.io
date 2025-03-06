@@ -286,4 +286,27 @@ body.gallery-body {
 
 .page-body a:hover {
   color: #000;
+}
+
+/* Photography Collections Page - Stephen Shore Style */
+.photography-collections {
+  max-width: 600px;
+  margin: 4rem auto;
+  text-align: left;
+}
+
+.collection-entry {
+  margin-bottom: 1.5rem;
+}
+
+.collection-entry a {
+  font-size: 1.2rem;
+  color: var(--gallery-text);
+  text-decoration: none;
+  display: block;
+  padding: 0.5rem 0;
+}
+
+.collection-entry a:hover {
+  color: #000;
 } 

@@ -1,15 +1,12 @@
 ---
-layout: gallery
+layout: gallery-base
 title: Photography
 ---
 
-<div class="collections-list">
+<div class="photography-collections">
   {% for collection in site.data.photo_collections %}
-    <div class="collection-link">
+    <div class="collection-entry">
       <a href="{{ 'photography/' | append: collection.id | relative_url }}">{{ collection.title }}</a>
-      {% if collection.description %}
-        <span class="collection-description">{{ collection.description }}</span>
-      {% endif %}
     </div>
   {% endfor %}
 </div> 
