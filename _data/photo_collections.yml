@@ -1,9 +1,13 @@
-- id: nature
-  title: Asia Photos
-  description: Photos from Hong Kong and other Asian countries
+- id: asia-2024
+  title: Asia Trip (2024)
+  description: Seoul, Hong Kong, Bali, Tokyo
   thumbnail: https://dkershner-photography.s3.amazonaws.com/hong-kong/DSCF1462.jpg
-
-- id: urban
-  title: Urban
-  description: City scenes and architecture
-  thumbnail: https://dkershner-photography.s3.amazonaws.com/urban/sample.jpg 
+- id: point-and-shoot
+  title: Point and Shoot
+  description: Point and shoot selects
+  thumbnail: https://dkershner-photography.s3.amazonaws.com/point-and-shoot/sample.jpg
+- id: morroco-2019
+  title: Morocco Trip (2019)
+  description: Morocco
+  thumbnail: https://dkershner-photography.s3.amazonaws.com/morocco/DSCF1462.jpg
+  
