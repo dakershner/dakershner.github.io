@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}Daniel Kershner</title>
+  <link rel="stylesheet" href="{{ '/assets/css/gallery.css' | relative_url }}">
+  {% if site.favicon %}
+  <link rel="icon" href="{{ site.favicon | relative_url }}">
+  {% endif %}
+  
+  {% if page.head-extra %}
+    {% for file in page.head-extra %}
+      {% include {{ file }} %}
+    {% endfor %}
+  {% endif %}
+</head>
+<body class="gallery-body">
+  <header class="gallery-header">
+    <div class="site-title"><a href="{{ '/' | relative_url }}">Daniel Kershner</a></div>
+    <nav class="gallery-nav">
+      <a href="{{ '/aboutme' | relative_url }}" {% if page.url contains 'aboutme' %}class="active"{% endif %}>About</a>
+      <a href="{{ '/services' | relative_url }}" {% if page.url contains 'services' %}class="active"{% endif %}>Services</a>
+      <a href="{{ '/photography' | relative_url }}" {% if page.url contains 'photography' %}class="active"{% endif %}>Photography</a>
+      <a href="{{ '/archive' | relative_url }}" {% if page.url contains 'archive' %}class="active"{% endif %}>Archive</a>
+    </nav>
+  </header>
+
+  <main class="gallery-content">
+    {{ content }}
+  </main>
+
+  <footer class="gallery-footer">
+    <p>&copy; {{ site.time | date: '%Y' }} Daniel Kershner</p>
+  </footer>
+  
+  {% if page.js %}
+    {% for js in page.js %}
+      <script src="{{ js | relative_url }}"></script>
+    {% endfor %}
+  {% endif %}
+</body>
+</html> 
