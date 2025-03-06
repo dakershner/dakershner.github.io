@@ -92,13 +92,13 @@ body.gallery-body {
 
 /* Collection Title */
 .collection-title {
+  display: flex;
+  align-items: center;
   margin-bottom: 3rem;
 }
 
 .collection-title h1 {
-  font-size: 1.5rem;
-  font-weight: 400;
-  margin-bottom: 0.5rem;
+  margin: 0;
 }
 
 .collection-title .collection-description {
@@ -339,8 +339,7 @@ body.gallery-body {
 
 .photo-grid-item img {
   width: 100%;
-  aspect-ratio: 1/1;
-  object-fit: cover;
+  height: auto;
   display: block;
   margin-bottom: 0.75rem;
 }
@@ -348,7 +347,7 @@ body.gallery-body {
 .placeholder-image {
   background-color: #f0f0f0;
   width: 100%;
-  padding-bottom: 100%; /* Square aspect ratio */
+  padding-bottom: 75%; /* 4:3 aspect ratio instead of square */
   margin-bottom: 0.75rem;
 }
 
@@ -372,4 +371,18 @@ body.gallery-body {
     grid-template-columns: 1fr;
     max-width: 300px;
   }
+}
+
+/* Back arrow styling */
+.back-arrow {
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  color: var(--gallery-accent);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.back-arrow:hover {
+  color: var(--gallery-text);
 } 
