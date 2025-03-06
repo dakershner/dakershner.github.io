@@ -1,9 +1,7 @@
 - id: nature
-  title: Nature
-  thumbnail: assets/img/photography/thumbnails/nature.jpg
-  description: Landscapes and wildlife photography
+  title: Asia Photos
+  description: Photos from Hong Kong and other Asian countries
 
 - id: urban
   title: Urban
-  thumbnail: assets/img/photography/thumbnails/urban.jpg
   description: City scenes and architecture 

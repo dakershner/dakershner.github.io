@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}Daniel Kershner</title>
+  <link rel="stylesheet" href="{{ '/assets/css/gallery.css' | relative_url }}">
+  {% if site.favicon %}
+  <link rel="icon" href="{{ site.favicon | relative_url }}">
+  {% endif %}
+</head>
+<body class="gallery-body">
+  <header class="gallery-header">
+    <div class="site-title"><a href="{{ '/' | relative_url }}">Daniel Kershner</a></div>
+    <nav class="gallery-nav">
+      <a href="{{ '/aboutme' | relative_url }}">About</a>
+      <a href="{{ '/services' | relative_url }}">Services</a>
+      <a href="{{ '/photography' | relative_url }}" class="active">Photography</a>
+      <a href="{{ '/archive' | relative_url }}">Archive</a>
+    </nav>
+  </header>
+
+  <main class="gallery-content">
+    {{ content }}
+  </main>
+
+  <footer class="gallery-footer">
+    <p>&copy; {{ site.time | date: '%Y' }} Daniel Kershner</p>
+  </footer>
+</body>
+</html> 

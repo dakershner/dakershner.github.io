@@ -1,0 +1,31 @@
+---
+layout: gallery
+---
+
+<div class="collection-title">
+  <h1>{{ page.title }}</h1>
+  {% if page.description %}
+  <p class="collection-description">{{ page.description }}</p>
+  {% endif %}
+</div>
+
+<div class="photo-viewer">
+  <div class="photo-container">
+    {% for photo in page.photos %}
+      <div class="photo-item{% if forloop.first %} active{% endif %}" id="photo-{{ forloop.index }}">
+        <img src="{{ photo.image }}" alt="{{ photo.caption }}">
+        {% if photo.caption %}
+          <div class="photo-caption">{{ photo.caption }}</div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+  
+  <div class="photo-navigation">
+    <a href="#" class="prev-photo" aria-label="Previous photo">←</a>
+    <span class="photo-counter">1 / {{ page.photos.size }}</span>
+    <a href="#" class="next-photo" aria-label="Next photo">→</a>
+  </div>
+</div>
+
+<script src="{{ '/assets/js/gallery.js' | relative_url }}"></script> 
