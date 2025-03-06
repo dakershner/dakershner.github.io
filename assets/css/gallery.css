@@ -98,12 +98,17 @@ body.gallery-body {
 }
 
 .collection-title h1 {
+  font-size: 1.8rem;
+  font-weight: 400;
   margin: 0;
+  line-height: 1.2;
 }
 
-.collection-title .collection-description {
+.collection-description {
   font-size: 1rem;
   color: var(--gallery-accent);
+  margin-top: 0.5rem;
+  font-weight: 300;
 }
 
 /* Photo Viewer */
@@ -376,13 +381,19 @@ body.gallery-body {
 /* Back arrow styling */
 .back-arrow {
   display: inline-block;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
   font-size: 1.2rem;
   color: var(--gallery-accent);
   text-decoration: none;
   transition: color 0.2s;
+  line-height: 1;
 }
 
 .back-arrow:hover {
   color: var(--gallery-text);
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
 } 

@@ -4,10 +4,12 @@ layout: gallery-base
 
 <div class="collection-title">
   <a href="{{ '/photography' | relative_url }}" class="back-arrow">←</a>
-  <h1>{{ page.title }}</h1>
-  {% if page.description %}
-  <p class="collection-description">{{ page.description }}</p>
-  {% endif %}
+  <div class="title-container">
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}
+    <p class="collection-description">{{ page.description }}</p>
+    {% endif %}
+  </div>
 </div>
 
 {% assign first_photo = page.photos | first %}
