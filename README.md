@@ -237,3 +237,64 @@ This template was not made *entirely* from scratch. I'd like to give special tha
 
 I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/), [Jekyll Themes](http://jekyllthemes.org/), and another [Jekyll Themes](http://jekyllrc.github.io/jekyllthemes/) for featuring Beautiful Jekyll in their Jekyll theme directories.
 
+# Managing the Photography Gallery
+
+This site includes a custom photography gallery system inspired by Stephen Shore's website. Here's how to manage it:
+
+## Adding a New Photo Collection
+
+1. **Create a new Markdown file** in the `photography` directory with a descriptive name, e.g., `photography/japan-2023.md`
+
+2. **Add the front matter** at the top of the file with the following structure:
+
+```yaml
+---
+layout: photo_gallery
+title: Japan Trip (2023)
+description: Tokyo, Kyoto, and Osaka. Shot with Sony A7IV.
+photos:
+  - image: https://dkershner-photography.s3.amazonaws.com/japan-2023/tokyo-street.jpg
+  - image: https://dkershner-photography.s3.amazonaws.com/japan-2023/kyoto-temple.jpg
+  - image: https://dkershner-photography.s3.amazonaws.com/japan-2023/osaka-night.jpg
+---
+```
+
+3. **Update the photo collections data file** at `_data/photo_collections.yml` to include your new collection:
+
+```yaml
+- id: japan-2023
+  title: Japan Trip (2023)
+  description: Tokyo, Kyoto, and Osaka
+  thumbnail: https://dkershner-photography.s3.amazonaws.com/japan-2023/tokyo-street.jpg
+```
+
+## Photo Collection Structure
+
+- **id**: The filename of your collection markdown file (without the `.md` extension)
+- **title**: The display title for the collection
+- **description**: A brief description of the collection
+- **thumbnail**: The URL to the image that will be displayed on the photography landing page
+
+## Photo Structure
+
+In each collection markdown file, the `photos` array contains all the images for that collection:
+
+```yaml
+photos:
+  - image: https://example.com/path/to/image1.jpg
+    caption: Optional caption for image 1
+  - image: https://example.com/path/to/image2.jpg
+    caption: Optional caption for image 2
+```
+
+- **image**: The URL to the full-size image
+- **caption**: (Optional) A caption to display below the image
+
+## Tips for Best Results
+
+1. **Consistent Image Sizes**: For the best gallery experience, try to use images with similar aspect ratios
+2. **Optimize Image Files**: Compress your images for web to ensure fast loading times
+3. **Meaningful Filenames**: Use descriptive filenames that indicate the content of the photo
+4. **Choose Strong Thumbnails**: Select thumbnails that represent the collection well and have visual impact
+5. **Add Captions**: Captions provide context and enhance the viewing experience
+
