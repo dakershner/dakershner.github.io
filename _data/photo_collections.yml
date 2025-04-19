@@ -2,8 +2,12 @@
   title: Asia Trip (2024)
   description: Seoul, Hong Kong, Bali, Tokyo
   thumbnail: https://dkershner-photography.s3.amazonaws.com/hong-kong/bus-stop.jpg
-- id: point-and-shoot
-  title: Point and Shoot
+- id: point-and-shoot-color
+  title: Point and Shoot (Color)
+  description: Point and shoot selects
+  thumbnail: https://dkershner-photography.s3.amazonaws.com/morocco-2019/car-wash.jpg
+- id: point-and-shoot-black-and-white
+  title: Point and Shoot (B&W)
   description: Point and shoot selects
   thumbnail: https://dkershner-photography.s3.amazonaws.com/morocco-2019/car-wash.jpg
 - id: morocco-2019
