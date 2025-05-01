@@ -21,6 +21,7 @@
 - [Next steps](#next-steps)
 - [Getting help](#getting-help)
 - [Credits and contributions](#contributions)
+- [TinaCMS Integration](#tina-cms-integration)
 
 # Features
 
@@ -297,4 +298,66 @@ photos:
 3. **Meaningful Filenames**: Use descriptive filenames that indicate the content of the photo
 4. **Choose Strong Thumbnails**: Select thumbnails that represent the collection well and have visual impact
 5. **Add Captions**: Captions provide context and enhance the viewing experience
+
+# TinaCMS Integration
+
+This site uses TinaCMS as a content management system while preserving the Beautiful Jekyll presentation layer. Here's how it's set up:
+
+## Configuration
+
+The TinaCMS configuration is located in `tina/config.ts` and includes:
+
+1. **Blog Posts Collection**
+   - Path: `_posts`
+   - Format: Markdown
+   - Maintains Jekyll's YYYY-MM-DD-title.md format
+   - Includes all Beautiful Jekyll front matter fields
+
+2. **Photo Galleries Collection**
+   - Path: `photography`
+   - Format: Markdown
+   - References photos stored in S3
+   - Uses existing photo_gallery layout
+
+## Local Development
+
+To run the site locally with TinaCMS:
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Start the development server:
+   ```bash
+   npx tinacms dev -c "bundle exec jekyll serve"
+   ```
+
+3. Access the admin interface at `http://localhost:4000/admin`
+
+## Production Setup
+
+The site uses GitHub Actions for deployment and requires the following secrets:
+
+- `CLIENT_ID`: Your TinaCMS client ID
+- `READ_TOKEN`: Your TinaCMS read token
+
+These are used in the GitHub Actions workflow for building and deploying the site.
+
+## Media Handling
+
+Currently, photos are stored in Amazon S3 at `dkershner-photography.s3.amazonaws.com`. The TinaCMS configuration validates S3 URLs to ensure they match this pattern.
+
+## Content Structure
+
+1. **Blog Posts**
+   - Located in `_posts/`
+   - Use Jekyll's standard YYYY-MM-DD-title.md format
+   - Include Beautiful Jekyll front matter
+
+2. **Photo Galleries**
+   - Located in `photography/`
+   - Each gallery is a markdown file
+   - References S3-hosted images
+   - Uses the photo_gallery layout
 

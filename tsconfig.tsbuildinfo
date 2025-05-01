@@ -1,0 +1,1 @@
+{"root":["./pages/api/cloudinary/[...media].ts","./tina/config.ts","./tina/pages/index.tsx"],"errors":true,"version":"5.8.3"}
