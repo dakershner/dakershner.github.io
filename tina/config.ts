@@ -21,9 +21,10 @@ export default defineConfig({
     basePath: ""
   },
   media: {
-    tina: {
-      mediaRoot: "",
-      publicFolder: "public",
+    // Use the loadCustomStore to load the S3 media provider
+    loadCustomStore: async () => {
+      const pack = await import('next-tinacms-s3')
+      return pack.TinaCloudS3MediaStore
     },
   },
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
@@ -113,18 +114,12 @@ export default defineConfig({
                 name: "description",
                 label: "Description"
               },
+              // Change from string to image field for direct uploads
               {
-                type: "string",
+                type: "image",
                 name: "thumbnail",
-                label: "Thumbnail URL",
-                description: "S3 URL to the thumbnail image",
-                ui: {
-                  validate: (url) => {
-                    if (url && !url.startsWith('https://dkershner-photography.s3.amazonaws.com/')) {
-                      return 'Must be a valid S3 URL from your bucket'
-                    }
-                  }
-                }
+                label: "Thumbnail Image",
+                description: "Thumbnail image for the collection"
               }
             ]
           }
@@ -175,27 +170,24 @@ export default defineConfig({
             list: true,
             ui: {
               itemProps: (item) => {
-                // Extract filename for display
+                // Extract filename for display if using string URLs
                 if (item?.image) {
-                  const parts = item.image.split('/');
-                  return { label: parts[parts.length - 1] };
+                  if (typeof item.image === 'string') {
+                    const parts = item.image.split('/');
+                    return { label: parts[parts.length - 1] };
+                  }
+                  return { label: "Photo" };
                 }
                 return { label: "Untitled Photo" };
               },
             },
             fields: [
+              // Change from string to image field for direct uploads
               {
-                type: "string",
+                type: "image",
                 name: "image",
-                label: "S3 Image URL",
-                required: true,
-                ui: {
-                  validate: (url) => {
-                    if (!url.startsWith('https://dkershner-photography.s3.amazonaws.com/')) {
-                      return 'Must be a valid S3 URL from your bucket'
-                    }
-                  }
-                }
+                label: "Photo",
+                required: true
               }
             ]
           }
