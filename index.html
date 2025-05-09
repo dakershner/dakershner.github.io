@@ -25,5 +25,19 @@ title: Daniel Kershner
       <p>Explore my photography collections.</p>
       <a href="{{ '/photography' | relative_url }}" class="home-link">View Gallery</a>
     </div>
+
+    <div class="home-section">
+      <h2>Blog</h2>
+      <p>Read my latest thoughts and insights.</p>
+      <div class="recent-posts">
+        {% for post in site.posts limit:3 %}
+          <div class="recent-post">
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+          </div>
+        {% endfor %}
+      </div>
+      <a href="{{ '/archive' | relative_url }}" class="home-link">View All Posts</a>
+    </div>
   </div>
 </div>

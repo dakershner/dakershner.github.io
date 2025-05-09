@@ -300,3 +300,9 @@ plugins:
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 
+# Include files from the public directory
+include:
+  - "public"
+  - "public/admin"
+  - "public/admin/index.html"
+
