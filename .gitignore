@@ -24,3 +24,6 @@ public/*.jpg
 public/*.jpeg
 public/*.png
 public/*.gif
+
+tsconfig.tsbuildinfo
+docs/*[iI][mM][pP][lL][eE][mM][eE][nN][tT][aA][tT][iI][oO][nN]*
