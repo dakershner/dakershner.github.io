@@ -26,4 +26,4 @@ public/*.png
 public/*.gif
 
 tsconfig.tsbuildinfo
-docs/*[iI][mM][pP][lL][eE][mM][eE][nN][tT][aA][tT][iI][oO][nN]*
+docs/TINA-IMPLEMENTATION.md
