@@ -17,7 +17,8 @@ export default createMediaHandler({
     region: process.env.TINA_S3_REGION,
   },
   bucket: process.env.TINA_S3_BUCKET || '',
-  authorized: async (req: NextApiRequest, _res: NextApiResponse): Promise<boolean> => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  authorized: async (req: NextApiRequest, _resUnused: NextApiResponse): Promise<boolean> => {
     if (process.env.NODE_ENV === 'development') {
       return true
     }

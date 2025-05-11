@@ -1,0 +1,6 @@
+node_modules/
+.next/
+_site/
+public/
+tina/__generated__/
+assets/js/staticman.js 

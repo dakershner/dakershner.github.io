@@ -1,5 +1,6 @@
 {
   "name": "dakershner.github.io",
+  "type": "module",
   "version": "1.0.0",
   "description": "[![Gem Version](https://badge.fury.io/rb/beautiful-jekyll-theme.svg)](https://badge.fury.io/rb/beautiful-jekyll-theme)",
   "main": "index.js",
@@ -9,7 +10,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tinacms dev -c \"next dev\"",
-    "build": "tinacms build && next build"
+    "build": "tinacms build && next build",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "repository": {
     "type": "git",
@@ -36,6 +38,10 @@
   "devDependencies": {
     "@tinacms/auth": "^1.0.12",
     "@types/node": "^22.15.3",
+    "@typescript-eslint/eslint-plugin": "^8.32.0",
+    "@typescript-eslint/parser": "^8.32.0",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^15.3.2",
     "next-tinacms-s3": "^10.0.5",
     "typescript": "^5.8.3"
   }
