@@ -20,6 +20,7 @@ jobs:
       - run: npm ci
       - run: bundle install
       - run: npm run lint
+      - run: npm run tina:generate
       - run: npx tsc --noEmit
       - run: bundle exec jekyll build
       - run: npm run build
