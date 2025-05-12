@@ -53,13 +53,13 @@ Developing and maintaining Beautiful Jekyll takes a lot of time and effort - tha
 
 **[Become a sponsor for Beautiful Jekyll and unlock new features\!](https://github.com/sponsors/daattali/sponsorships?tier_id=39856)**
 
-# Build your website in 3 steps
+# Build Your Website in 3 Steps
 
 There are a few different ways to build a website using Beautiful Jekyll, and this document will go through the simplest one: using a fork on GitHub. For most people (including myself!), this easy method is the recommended one.
 
 Even if you choose to use one of the [advanced installation methods](https://beautifuljekyll.com/getstarted/#install-steps-hard), I still suggest you read through the easy method first.
 
-## The easy way (recommended!)
+## The Easy Way (recommended!)
 
 Getting started is *literally* as easy as 1-2-3 :smile:
 
