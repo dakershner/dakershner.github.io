@@ -12,7 +12,7 @@
 
 **If you enjoy Beautiful Jekyll, please consider [supporting me](https://github.com/sponsors/daattali). You'll also gain access to office hours and more features! ❤**
 
-## Table of contents
+## Table of Contents
 
 - [Features](#features)
 - [Sponsors 🏆](#sponsors)
