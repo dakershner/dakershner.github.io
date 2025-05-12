@@ -22,12 +22,6 @@
         "no-undef": "off",
         "no-unused-vars": "off"
       }
-    },
-    {
-      "files": ["pages/demo/blog/*.tsx"],
-      "rules": {
-        "@typescript-eslint/no-explicit-any": "off"
-      }
     }
   ]
 } 
