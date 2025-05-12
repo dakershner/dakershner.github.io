@@ -1,5 +1,9 @@
 # Beautiful Jekyll
 
+> **Note:** This repository uses `main` as the default branch (not `master`). All CI/CD, deployment, and development workflows should reference `main`.
+
+> **Linting:** This project uses ESLint (v8) with TypeScript and Next.js support. Only source files are linted; legacy, generated, and vendor files are excluded. See `.eslintrc.json` and `.eslintignore` for details. Run `npm run lint` to check code quality.
+
 [![Gem Version](https://badge.fury.io/rb/beautiful-jekyll-theme.svg)](https://badge.fury.io/rb/beautiful-jekyll-theme)
 
 > By [Dean Attali](https://deanattali.com) &middot; [Demo](https://beautifuljekyll.com/)
