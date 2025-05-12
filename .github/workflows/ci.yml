@@ -29,7 +29,7 @@ jobs:
           name: dummy
           path: README.md
       - name: Upload GitHub Pages artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: _site
   deploy:
@@ -41,4 +41,4 @@ jobs:
     environment:
       name: github-pages
     steps:
-      - uses: actions/deploy-pages@v2
+      - uses: actions/deploy-pages@v4
