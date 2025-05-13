@@ -1,0 +1,10 @@
+---
+layout: str(required=False)
+title: str()
+description: str()
+photos: list(include('photo'))
+
+---
+photo:
+  image: str()
+  caption: str(required=False)

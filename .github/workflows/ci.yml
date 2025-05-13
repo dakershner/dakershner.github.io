@@ -19,10 +19,24 @@ jobs:
           ruby-version: "3.0"
       - run: npm ci
       - run: bundle install
+      - run: pip install yamale
       - run: npm run lint
       - run: npx tsc --noEmit
       - run: bundle exec jekyll build
       - run: npm run build
+      - name: Validate YAML schemas and frontmatter
+        run: |
+          # Validate photo collections YAML
+          yamale -s _schemas/photo_collections.schema.yml _data/photo_collections.yml
+
+          # Validate UI text YAML
+          yamale -s _schemas/ui-text.schema.yml _data/ui-text.yml
+
+          # Validate gallery markdown frontmatter
+          for f in photography/*.md; do
+            sed -n '/^---$/,/^---$/p' "$f" | sed '1d;$d' > _tmp_frontmatter.yml
+            yamale -s _schemas/gallery_markdown.schema.yml _tmp_frontmatter.yml
+          done
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

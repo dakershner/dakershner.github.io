@@ -27,3 +27,5 @@ public/*.gif
 
 tsconfig.tsbuildinfo
 docs/TINA-IMPLEMENTATION.md
+
+_tmp_frontmatter.yml

@@ -1,0 +1,16 @@
+map(include('lang'))
+
+---
+lang:
+  comments_label: str(required=False)
+  comments_title: str(required=False)
+  comment_form_info: str(required=False)
+  comment_form_comment_label: str(required=False)
+  comment_form_md_info: str(required=False)
+  comment_form_name_label: str(required=False)
+  comment_form_email_label: str(required=False)
+  comment_form_website_label: str(required=False)
+  comment_btn_submit: str(required=False)
+  comment_btn_submitted: str(required=False)
+  comment_success_msg: str(required=False)
+  comment_error_msg: str(required=False) 

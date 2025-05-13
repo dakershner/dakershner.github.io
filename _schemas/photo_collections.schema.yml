@@ -1,0 +1,8 @@
+collections: list(include('collection'))
+
+---
+collection:
+  id: str()
+  title: str()
+  description: str()
+  thumbnail: str()

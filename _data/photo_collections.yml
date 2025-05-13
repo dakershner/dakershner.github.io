@@ -1,16 +1,17 @@
-- id: asia-2024
-  title: Asia Trip (2024)
-  description: 'Seoul, Hong Kong, Bali, Tokyo'
-  thumbnail: 'https://dkershner-photography.s3.amazonaws.com/hong-kong/bus-stop.jpg'
-- id: point-and-shoot-color
-  title: Point and Shoot (Color)
-  description: Point and shoot selects
-  thumbnail: 'https://dkershner-photography.s3.amazonaws.com/morocco-2019/car-wash.jpg'
-- id: point-and-shoot-black-and-white
-  title: Point and Shoot (B&W)
-  description: Point and shoot selects
-  thumbnail: 'https://dkershner-photography.s3.amazonaws.com/morocco-2019/car-wash.jpg'
-- id: morocco-2019
-  title: Morocco Trip (2019)
-  description: Morocco
-  thumbnail: 'https://dkershner-photography.s3.amazonaws.com/morocco-2019/tangier.jpg'
+collections:
+  - id: asia-2024
+    title: Asia Trip (2024)
+    description: 'Seoul, Hong Kong, Bali, Tokyo'
+    thumbnail: 'https://dkershner-photography.s3.amazonaws.com/hong-kong/bus-stop.jpg'
+  - id: point-and-shoot-color
+    title: Point and Shoot (Color)
+    description: Point and shoot selects
+    thumbnail: 'https://dkershner-photography.s3.amazonaws.com/morocco-2019/car-wash.jpg'
+  - id: point-and-shoot-black-and-white
+    title: Point and Shoot (B&W)
+    description: Point and shoot selects
+    thumbnail: 'https://dkershner-photography.s3.amazonaws.com/morocco-2019/car-wash.jpg'
+  - id: morocco-2019
+    title: Morocco Trip (2019)
+    description: Morocco
+    thumbnail: 'https://dkershner-photography.s3.amazonaws.com/morocco-2019/tangier.jpg'
