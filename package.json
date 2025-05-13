@@ -12,7 +12,10 @@
     "dev": "tinacms dev -c \"next dev\"",
     "build": "next build",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "tina:generate": "tinacms generate"
+    "tina:generate": "tinacms generate",
+    "test-tina-jekyll-galleries": "node scripts/test-tina-jekyll-galleries.js",
+    "test-tina-jekyll-photo-collections": "node scripts/test-tina-jekyll-photo-collections.js",
+    "test-tina-jekyll-post": "node scripts/test-tina-jekyll-post.js"
   },
   "repository": {
     "type": "git",
@@ -44,6 +47,7 @@
     "eslint": "^8.57.1",
     "eslint-config-next": "^15.3.2",
     "next-tinacms-s3": "^10.0.5",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "js-yaml": "^4.1.0"
   }
 }

@@ -29,3 +29,5 @@ tsconfig.tsbuildinfo
 docs/TINA-IMPLEMENTATION.md
 
 _tmp_frontmatter.yml
+
+scripts/test-tina-jekyll-galleries.js

@@ -1,0 +1,11 @@
+---
+layout: str()
+title: str()
+date: str()
+subtitle: str(required=False)
+cover-img: str(required=False)
+thumbnail-img: str(required=False)
+share-img: str(required=False)
+tags: list(str(), required=False)
+author: str(required=False)
+body: str(required=False) 

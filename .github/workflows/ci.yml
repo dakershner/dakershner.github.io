@@ -37,6 +37,11 @@ jobs:
             sed -n '/^---$/,/^---$/p' "$f" | sed '1d;$d' > _tmp_frontmatter.yml
             yamale -s _schemas/gallery_markdown.schema.yml _tmp_frontmatter.yml
           done
+      - name: Tina ↔ Jekyll Interoperability Tests
+        run: |
+          npm run test-tina-jekyll-galleries
+          npm run test-tina-jekyll-photo-collections
+          npm run test-tina-jekyll-post
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
