@@ -8,7 +8,10 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "test-tina-jekyll-galleries": "node scripts/test-tina-jekyll-galleries.js",
+    "test-tina-jekyll-photo-collections": "node scripts/test-tina-jekyll-photo-collections.js",
+    "test-tina-jekyll-post": "node scripts/test-tina-jekyll-post.js",
     "dev": "tinacms dev -c \"next dev\"",
     "build": "next build",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
