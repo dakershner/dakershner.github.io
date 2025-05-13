@@ -12,10 +12,7 @@
     "dev": "tinacms dev -c \"next dev\"",
     "build": "next build",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "tina:generate": "tinacms generate",
-    "test-tina-jekyll-galleries": "node scripts/test-tina-jekyll-galleries.js",
-    "test-tina-jekyll-photo-collections": "node scripts/test-tina-jekyll-photo-collections.js",
-    "test-tina-jekyll-post": "node scripts/test-tina-jekyll-post.js"
+    "tina:generate": "tinacms generate"
   },
   "repository": {
     "type": "git",
