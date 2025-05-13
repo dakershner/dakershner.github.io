@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { collectionItemProps, photoItemProps, gallerySlugify } from './utils';
 
 describe('collectionItemProps', () => {
