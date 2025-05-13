@@ -4,7 +4,7 @@ title: Photography
 ---
 
 <div class="photo-grid">
-  {% for collection in site.data.photo_collections %}
+  {% for collection in site.data.photo_collections.collections %}
     <div class="photo-grid-item">
       <a href="{{ 'photography/' | append: collection.id | relative_url }}">
         {% if collection.thumbnail %}
