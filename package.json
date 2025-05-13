@@ -41,13 +41,16 @@
   },
   "devDependencies": {
     "@tinacms/auth": "^1.0.12",
+    "@types/jest": "^29.5.14",
     "@types/node": "^22.15.3",
     "@typescript-eslint/eslint-plugin": "^8.32.0",
     "@typescript-eslint/parser": "^8.32.0",
     "eslint": "^8.57.1",
     "eslint-config-next": "^15.3.2",
+    "jest": "^29.7.0",
+    "js-yaml": "^4.1.0",
     "next-tinacms-s3": "^10.0.5",
-    "typescript": "^5.8.3",
-    "js-yaml": "^4.1.0"
+    "ts-jest": "^29.3.2",
+    "typescript": "^5.8.3"
   }
 }
