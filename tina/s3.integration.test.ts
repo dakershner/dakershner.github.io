@@ -1,6 +1,6 @@
 import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
 import { mockClient } from 'aws-sdk-client-mock';
-// @ts-ignore
+// @ts-expect-error
 import request from 'supertest'
 import next from 'next'
 import http, { Server } from 'http'
@@ -47,6 +47,7 @@ describe('S3 Integration', () => {
 // --- API route connectivity test ---
 describe('Tina S3 Media API Route', () => {
   let server: Server
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   let app: any
   beforeAll(async () => {
     app = next({ dev: true, dir: process.cwd() })
