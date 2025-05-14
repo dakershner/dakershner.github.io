@@ -1,6 +1,6 @@
 import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
 import { mockClient } from 'aws-sdk-client-mock';
-// @ts-expect-error
+// @ts-expect-error supertest has no types in this project
 import request from 'supertest'
 import next from 'next'
 import http, { Server } from 'http'
