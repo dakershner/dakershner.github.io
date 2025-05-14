@@ -17,7 +17,7 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "tina:generate": "tinacms generate",
     "ci:local": "npm run lint && npx tsc --noEmit && bundle exec jekyll build && npm run build && npm test",
-    "prepare": "husky"
+    "prepare": "husky || true"
   },
   "repository": {
     "type": "git",
