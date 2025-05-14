@@ -37,7 +37,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tinacms": "^2.7.5",
-    "tinacms-authjs": "^10.0.5"
+    "tinacms-authjs": "^10.0.5",
+    "next-tinacms-s3": "^10.0.5"
   },
   "devDependencies": {
     "@aws-sdk/client-s3": "^3.808.0",
@@ -51,7 +52,6 @@
     "eslint-config-next": "^15.3.2",
     "jest": "^29.7.0",
     "js-yaml": "^4.1.0",
-    "next-tinacms-s3": "^10.0.5",
     "ts-jest": "^29.3.2",
     "typescript": "^5.8.3"
   }

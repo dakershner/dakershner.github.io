@@ -18,13 +18,19 @@ export default defineConfig({
   build: {
     outputFolder: "admin",
     publicFolder: "public",
-    basePath: ""
+    basePath: "/admin"
   },
   media: {
     // Use the loadCustomStore to load the S3 media provider
     loadCustomStore: async () => {
-      const pack = await import('next-tinacms-s3')
-      return pack.TinaCloudS3MediaStore
+      try {
+        const pack = await import('next-tinacms-s3')
+        console.log('[Tina] S3MediaStore loaded successfully')
+        return pack.S3MediaStore
+      } catch (err) {
+        console.error('[Tina] Failed to load S3MediaStore:', err)
+        throw err
+      }
     },
   },
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
