@@ -1,8 +1,5 @@
 import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
 import { mockClient } from 'aws-sdk-client-mock';
-import request from 'supertest'
-import next from 'next'
-import http, { Server } from 'http'
 
 // Mock S3 client
 const s3Mock = mockClient(S3Client);
