@@ -40,6 +40,21 @@ export default defineConfig({
         name: "post",
         label: "Posts",
         path: "_posts",
+        ui: {
+          filename: {
+            readonly: false,
+            slugify: (values) => {
+              // Use the date and title to generate the filename
+              const date = values?.date
+                ? new Date(values.date).toISOString().slice(0, 10)
+                : "1970-01-01";
+              const title = values?.title
+                ? values.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
+                : "untitled";
+              return `${date}-${title}`;
+            }
+          }
+        },
         fields: [
           {
             type: "string",
@@ -47,6 +62,11 @@ export default defineConfig({
             label: "Title",
             isTitle: true,
             required: true,
+          },
+          {
+            type: "string",
+            name: "subtitle",
+            label: "Subtitle",
           },
           {
             type: "string",
@@ -60,6 +80,35 @@ export default defineConfig({
             name: "date",
             label: "Date",
             required: true,
+          },
+          {
+            type: "image",
+            name: "cover_img",
+            nameOverride: "cover-img",
+            label: "Cover Image",
+          },
+          {
+            type: "image",
+            name: "thumbnail_img",
+            nameOverride: "thumbnail-img",
+            label: "Thumbnail Image",
+          },
+          {
+            type: "image",
+            name: "share_img",
+            nameOverride: "share-img",
+            label: "Share Image",
+          },
+          {
+            type: "string",
+            name: "author",
+            label: "Author",
+          },
+          {
+            type: "string",
+            name: "tags",
+            label: "Tags",
+            list: true,
           },
           {
             type: "string",
