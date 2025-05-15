@@ -11,6 +11,12 @@ A modern, headless, developer-friendly personal site and portfolio. This repo po
 - **Static Site Generation**: Jekyll for fast, SEO-friendly output
 - **Modern Dev Workflow**: TypeScript, Next.js, ESLint, Jest, CI/CD, and more
 
+## Architecture Overview
+
+This diagram illustrates the flow of content, media, and build/deploy in this TinaCMS + Jekyll + S3 setup:
+
+![TinaCMS + Jekyll + S3 Architecture](assets/img/site-architecture.png)
+
 ## Quick Start
 1. **Clone this repo**
    ```sh
@@ -118,12 +124,4 @@ photos:
 This project is based on the [Beautiful Jekyll](https://beautifuljekyll.com) theme by [Dean Attali](https://deanattali.com). Many layout and config options are inherited from the original theme. See the [original documentation](https://beautifuljekyll.com) for advanced Jekyll usage, FAQ, and more.
 
 Some vestigial files and config remain for compatibility and attribution. Please see LICENSE for details.
-
-## Architecture Overview
-
-This diagram illustrates the flow of content, media, and build/deploy in this TinaCMS + Jekyll + S3 setup:
-
-<p align="center">
-  <img src="assets/site-architecture.png" width="600" alt="TinaCMS + Jekyll + S3 Architecture">
-</p>
 
