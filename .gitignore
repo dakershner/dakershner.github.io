@@ -26,6 +26,6 @@ public/*.png
 public/*.gif
 
 tsconfig.tsbuildinfo
-docs/TINA-IMPLEMENTATION.md
+docs/
 
 _tmp_frontmatter.yml
