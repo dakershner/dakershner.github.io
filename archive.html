@@ -1,14 +1,14 @@
 ---
-layout: page
+layout: gallery-base
 title: Archive
 ---
 
 {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
 
 <div class="archive-tags">
-  <a href="#" class="btn btn-primary tag-btn active">Show All ({{ site.posts.size }})</a>
+  <a href="#" class="btn tag-btn active">Show All ({{ site.posts.size }})</a>
   {% for tag in site.tags %}
-    <a href="#{{ tag[0] }}" class="btn btn-primary tag-btn">
+    <a href="#{{ tag[0] }}" class="btn tag-btn">
       {{ tag[0] }} ({{ tag[1].size }})
     </a>
   {% endfor %}

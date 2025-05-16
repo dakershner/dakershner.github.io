@@ -74,12 +74,16 @@ h4 {
 h1, h2, h3, h4 {
   margin-top: 1.25rem;
 }
+.site-title a,
 a {
-  color: var(--link-col);
+  color: #232323;
+  text-decoration: none;
+  transition: color 0.2s;
 }
+.site-title a:hover,
 a:hover,
-a:focus {
-  color: var(--hover-col);
+a:active {
+  color: #FF9900;
 }
 blockquote {
   color: var(--mid-col);
@@ -1170,3 +1174,114 @@ pre {
   background: var(--hover-col);
   color: white;
 }
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #E5E5E5;
+  padding: 48px 0 40px 0;
+  border-bottom: 2px solid #C3C3C3;
+}
+
+.hero__avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #C3C3C3;
+  margin-bottom: 24px;
+  object-fit: cover;
+  background: #fff;
+}
+
+.hero__title {
+  font-family: var(--header-font);
+  color: #232323;
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin: 0 0 16px 0;
+  letter-spacing: 0;
+}
+
+.hero__tagline {
+  font-family: var(--header-font);
+  color: #232323;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 0 0 16px 0;
+}
+
+.hero__intro {
+  color: #232323;
+  max-width: 500px;
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 1.1rem;
+}
+
+.hero__links {
+  display: flex;
+  gap: 16px;
+}
+
+.btn {
+  padding: 0.75em 1.5em;
+  border-radius: 8px;
+  background: #C3C3C3;
+  color: #232323;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: inherit;
+  transition: background 0.2s, color 0.2s;
+  border: none;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(35,35,35,0.04);
+}
+
+.btn--accent {
+  background: #D6FF4B;
+  color: #232323;
+}
+
+.btn:hover, .btn:focus {
+  background: #FF9900;
+  color: #fff;
+}
+
+.home-section a,
+.home-section .recent-posts a {
+  color: #232323;
+  text-decoration: underline;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+.home-section a:hover,
+.home-section a:active,
+.home-section .recent-posts a:hover,
+.home-section .recent-posts a:active {
+  color: #FF9900;
+}
+
+.home-section p {
+  min-height: 48px;
+}
+
+.home-link {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.gallery-header {}
+.site-title {}
+.site-title a {}
+.gallery-nav {}
+.gallery-nav a {}
+.gallery-nav a:hover,
+.gallery-nav a.active {
+  color: #FF9900;
+}
+
+.sitemap-banner { display: none; }
+
+.hero__welcome { display: none; }

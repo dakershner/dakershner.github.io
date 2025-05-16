@@ -7,15 +7,17 @@
 }
 
 body.gallery-body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   line-height: 1.6;
   color: var(--gallery-text);
   background-color: var(--gallery-background);
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
+}
+
+.gallery-header, .site-title, .gallery-nav, h1, h2, h3, h4, h5, h6, .hero__title, .hero__tagline {
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
 }
 
 /* Header Styles */
@@ -24,7 +26,7 @@ body.gallery-body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #eee;
+  border-bottom: 2.5px solid #eee;
 }
 
 .site-title {

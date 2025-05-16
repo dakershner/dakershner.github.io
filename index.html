@@ -3,9 +3,18 @@ layout: gallery-base
 title: Daniel Kershner
 ---
 
-<div class="home-content">
-  <h1>Daniel Kershner</h1>
-  <p class="home-intro">Software Engineer & Photographer</p>
+<div class="hero">
+  <img src="/assets/img/headshot.jpg" alt="Daniel Kershner" class="hero__avatar" />
+  <h1 class="hero__title">Daniel Kershner</h1>
+  <p class="hero__tagline">Software Engineer & Photographer</p>
+  <p class="hero__intro">Welcome to my site! See what I'm up to below.</p>
+  <div class="hero__links">
+    <a href="{{ '/aboutme' | relative_url }}" class="btn">About</a>
+    <a href="{{ '/photography' | relative_url }}" class="btn btn--accent">Photography</a>
+    <a href="{{ '/archive' | relative_url }}" class="btn">Blog</a>
+    <a href="mailto:you@email.com" class="btn">Contact</a>
+  </div>
+</div>
   
   <div class="home-sections">
     <div class="home-section">
@@ -40,4 +49,3 @@ title: Daniel Kershner
       <a href="{{ '/archive' | relative_url }}" class="home-link">View All Posts</a>
     </div>
   </div>
-</div>
