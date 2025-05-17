@@ -15,37 +15,30 @@ title: Daniel Kershner
     <a href="mailto:you@email.com" class="btn">Contact</a>
   </div>
 </div>
-  
-  <div class="home-sections">
-    <div class="home-section">
-      <h2>About Me</h2>
-      <p>Learn more about my background, skills, and interests.</p>
-      <a href="{{ '/aboutme' | relative_url }}" class="home-link">Read More</a>
-    </div>
-    
-    <div class="home-section">
-      <h2>Services</h2>
-      <p>Discover the professional services I offer.</p>
-      <a href="{{ '/services' | relative_url }}" class="home-link">View Services</a>
-    </div>
-    
-    <div class="home-section">
-      <h2>Photography</h2>
-      <p>Explore my photography collections.</p>
-      <a href="{{ '/photography' | relative_url }}" class="home-link">View Gallery</a>
-    </div>
 
-    <div class="home-section">
-      <h2>Blog</h2>
-      <p>Read my latest thoughts and insights.</p>
-      <div class="recent-posts">
-        {% for post in site.posts limit:3 %}
-          <div class="recent-post">
-            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-            <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
-          </div>
-        {% endfor %}
-      </div>
-      <a href="{{ '/archive' | relative_url }}" class="home-link">View All Posts</a>
+<div class="carousel" id="main-carousel">
+  <div class="carousel-slide about-slide active">
+    <img src="/assets/img/about-preview.png" alt="About Preview" />
+    <div class="carousel-overlay">
+      <h2>About</h2>
+      <p>Get to know my background, skills, and interests.</p>
     </div>
   </div>
+  <div class="carousel-slide photography-slide">
+    <img src="/assets/img/photography-preview.png" alt="Photography Preview" />
+    <div class="carousel-overlay">
+      <h2>Photography</h2>
+      <p>See my latest work and featured galleries.</p>
+    </div>
+  </div>
+  <div class="carousel-slide blog-slide">
+    <img src="/assets/img/blog-preview.png" alt="Blog Preview" />
+    <div class="carousel-overlay">
+      <h2>From the Blog</h2>
+      <p>Read my latest thoughts and insights.</p>
+    </div>
+  </div>
+  <button class="carousel-arrow left" aria-label="Previous slide">&#10094;</button>
+  <button class="carousel-arrow right" aria-label="Next slide">&#10095;</button>
+  <div class="carousel-dots"></div>
+</div>
