@@ -27,7 +27,9 @@ common-js:
 <body>
   {% include gtm_body.html %}
 
-  {% include nav.html %}
+  <header class="site-header">
+    {% include nav.html %}
+  </header>
 
   {{ content }}
 
