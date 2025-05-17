@@ -19,23 +19,27 @@ title: Daniel Kershner
 <div class="carousel" id="main-carousel">
   <div class="carousel-slide about-slide active">
     <img src="/assets/img/about-preview.png" alt="About Preview" />
-    <div class="carousel-overlay">
+    <div class="carousel-caption">
+      <img src="/assets/img/about-icon.png" alt="About Icon" class="carousel-caption-icon" style="width:48px;height:48px;margin-bottom:0.5rem;" />
       <h2>About</h2>
       <p>Get to know my background, skills, and interests.</p>
     </div>
   </div>
   <div class="carousel-slide photography-slide">
-    <img src="/assets/img/photography-preview.png" alt="Photography Preview" />
-    <div class="carousel-overlay">
+    <img src="https://dkershner-photography.s3.amazonaws.com/hong-kong/bus-stop.jpg" alt="Photography Preview" />
+    <div class="carousel-caption">
       <h2>Photography</h2>
       <p>See my latest work and featured galleries.</p>
     </div>
   </div>
   <div class="carousel-slide blog-slide">
-    <img src="/assets/img/blog-preview.png" alt="Blog Preview" />
-    <div class="carousel-overlay">
+    <div class="carousel-blog-widget">
       <h2>From the Blog</h2>
-      <p>Read my latest thoughts and insights.</p>
+      <div class="blog-excerpt">
+        <p><strong>Sample blog post to learn markdown tips</strong></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae velit ex.</p>
+        <a href="{{ '/archive' | relative_url }}" class="blog-link">Read more &rarr;</a>
+      </div>
     </div>
   </div>
   <button class="carousel-arrow left" aria-label="Previous slide">&#10094;</button>
